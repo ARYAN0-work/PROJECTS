@@ -1,0 +1,21 @@
+{
+  "name": "projetcs",
+  "version": "1.0.0",
+  "description": "- need to see a list of all existing tasks on the screen.\r - type a new task into the input box and click \"Submit\" to create it.\r - click an \"Edit\" icon to open a single task's details.\r - update the task name or check the \"Completed\" box.\r - click a trash can icon to delete a task.",
+  "main": "app.js",
+  "scripts": {
+    "dev":"nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
